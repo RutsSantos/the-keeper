@@ -1,0 +1,12 @@
+{
+  "name": "the-keeper",
+  "displayName": "the-keeper",
+  "expo": {
+    "name": "the-keeper",
+    "slug": "the-keeper",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
