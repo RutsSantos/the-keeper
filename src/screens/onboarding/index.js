@@ -2,8 +2,9 @@ import React from "react";
 import { StyleSheet, View, Text, Image, TouchableOpacity } from "react-native";
 import Dots from "react-native-dots-pagination";
 import Icon from "react-native-ico";
+import {MainButton} from "../../components/Button/Button";
 
-function DotSlider({active}) {
+function DotSlider({ active }) {
   return (
     <View style={{ height: 20, marginTop: 55 }}>
       <Dots
@@ -101,6 +102,9 @@ export function Onboarding3({ navigation }) {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </Text>
         <DotSlider active={2} />
+        <View style={{ marginVertical: 30 }}>
+          <MainButton text={"inicia"} onPress={()=>navigation.navigate("Home")} />
+        </View>
       </View>
     </View>
   );
