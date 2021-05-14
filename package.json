@@ -16,6 +16,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "~0.63.4",
+    "react-native-dots-pagination": "^0.2.0",
     "react-native-gesture-handler": "~1.10.2",
     "react-native-ico": "^28.7.4",
     "react-native-pager-view": "^5.1.7",
