@@ -313,8 +313,6 @@ PODS:
     - Yoga
   - RNScreens (3.0.0):
     - React-Core
-  - RNSVG (12.1.1):
-    - React
   - UMAppLoader (2.1.0)
   - UMBarCodeScannerInterface (6.1.0):
     - UMCore
@@ -383,7 +381,6 @@ DEPENDENCIES:
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
-  - RNSVG (from `../node_modules/react-native-svg`)
   - UMAppLoader (from `../node_modules/unimodules-app-loader/ios`)
   - UMBarCodeScannerInterface (from `../node_modules/unimodules-barcode-scanner-interface/ios`)
   - UMCameraInterface (from `../node_modules/unimodules-camera-interface/ios`)
@@ -486,8 +483,6 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-reanimated"
   RNScreens:
     :path: "../node_modules/react-native-screens"
-  RNSVG:
-    :path: "../node_modules/react-native-svg"
   UMAppLoader:
     :path: "../node_modules/unimodules-app-loader/ios"
   UMBarCodeScannerInterface:
@@ -560,7 +555,6 @@ SPEC CHECKSUMS:
   RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
   RNReanimated: 70f662b5232dd5d19ccff581e919a54ea73df51c
   RNScreens: e8e8dd0588b5da0ab57dcca76ab9b2d8987757e0
-  RNSVG: 551acb6562324b1d52a4e0758f7ca0ec234e278f
   UMAppLoader: fe2708bb0ac5cd70052bc207d06aa3b7e72b9e97
   UMBarCodeScannerInterface: 79f92bea5f7af39b381a4c82298105ceb537408a
   UMCameraInterface: 81ff46700da88435f17afedfc88915eaede7e6a6

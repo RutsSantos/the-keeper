@@ -5,18 +5,12 @@ import PagerView from "react-native-pager-view";
 export default function Onboarding() {
   return (
     <PagerView style={styles.pagerView} initialPage={0}>
-      <View key='1' style={{ flexDirection: "column" }}>
+      <View key='1' style={styles.center}>
         <Image
           source={require("../../assets/img/Artboard1.png")}
-          style={{ width: "100%", height: "100%", position: "absolute", marginTop: -10 }}
+          style={styles.image}
         />
-        <View
-          style={{
-            alignItems: "center",
-            alignSelf: "center",
-            marginTop: "115%",
-            marginHorizontal: 30,
-          }}>
+        <View style={styles.text}>
           <Text style={{ fontWeight: "700", fontSize: 26 }}>
             ¿Necesitas ayuda?
           </Text>
@@ -25,18 +19,12 @@ export default function Onboarding() {
           </Text>
         </View>
       </View>
-      <View key='2'>
+      <View key='2' style={styles.center}>
         <Image
           source={require("../../assets/img/Artboard2.png")}
-          style={{ width: "100%", height: "100%", position: "absolute", marginTop: -10 }}
+          style={styles.image}
         />
-        <View
-          style={{
-            alignItems: "center",
-            alignSelf: "center",
-            marginTop: "115%",
-            marginHorizontal: 30,
-          }}>
+        <View style={styles.text}>
           <Text style={{ fontWeight: "700", fontSize: 26 }}>
             Consigue empleo
           </Text>
@@ -45,21 +33,13 @@ export default function Onboarding() {
           </Text>
         </View>
       </View>
-      <View key='3'>
+      <View key='3' style={styles.center}>
         <Image
           source={require("../../assets/img/Artboard3.png")}
-          style={{ width: "100%", height: "100%", position: "absolute" }}
+          style={styles.image}
         />
-        <View
-          style={{
-            alignItems: "center",
-            alignSelf: "center",
-            marginTop: "115%",
-            marginHorizontal: 30,
-          }}>
-          <Text style={{ fontWeight: "700", fontSize: 26 }}>
-            únete
-          </Text>
+        <View style={styles.text}>
+          <Text style={{ fontWeight: "700", fontSize: 26 }}>únete</Text>
           <Text style={{ fontSize: 18, marginTop: 30 }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
           </Text>
@@ -72,5 +52,20 @@ export default function Onboarding() {
 const styles = StyleSheet.create({
   pagerView: {
     flex: 1,
+  },
+  text: {
+    alignSelf: "center",
+    alignItems: "center",
+    marginTop: "70%",
+    marginHorizontal: 30,
+  },
+  center: {
+    justifyContent: "center",
+  },
+  image: {
+    width: "100%",
+    height: "100%",
+    position: "absolute",
+    marginTop: -10,
   },
 });
